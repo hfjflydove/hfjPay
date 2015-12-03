@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCB4D5FC1C0FDF2A00F70922 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB4D5FB1C0FDF2A00F70922 /* main.m */; };
+		CCB4D5FF1C0FDF2A00F70922 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB4D5FE1C0FDF2A00F70922 /* AppDelegate.m */; };
+		CCB4D6021C0FDF2A00F70922 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB4D6011C0FDF2A00F70922 /* ViewController.m */; };
+		CCB4D6051C0FDF2A00F70922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB4D6031C0FDF2A00F70922 /* Main.storyboard */; };
+		CCB4D6071C0FDF2A00F70922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB4D6061C0FDF2A00F70922 /* Assets.xcassets */; };
+		CCB4D60A1C0FDF2A00F70922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB4D6081C0FDF2A00F70922 /* LaunchScreen.storyboard */; };
+		CCB4D6151C0FDF2A00F70922 /* hfjPayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB4D6141C0FDF2A00F70922 /* hfjPayTests.m */; };
+		CCB4D6201C0FDF2A00F70922 /* hfjPayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB4D61F1C0FDF2A00F70922 /* hfjPayUITests.m */; };
+		CCB4D6341C0FE02D00F70922 /* libSPaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB4D62E1C0FE02D00F70922 /* libSPaySDK.a */; settings = {ASSET_TAGS = (); }; };
+		CCB4D6351C0FE02D00F70922 /* libSPaySdkQuickPay1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB4D62F1C0FE02D00F70922 /* libSPaySdkQuickPay1.a */; settings = {ASSET_TAGS = (); }; };
+		CCB4D6361C0FE02D00F70922 /* SPayImages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CCB4D6321C0FE02D00F70922 /* SPayImages.bundle */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCB4D6111C0FDF2A00F70922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB4D5EF1C0FDF2A00F70922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB4D5F61C0FDF2A00F70922;
+			remoteInfo = hfjPay;
+		};
+		CCB4D61C1C0FDF2A00F70922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB4D5EF1C0FDF2A00F70922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB4D5F61C0FDF2A00F70922;
+			remoteInfo = hfjPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCB4D5F71C0FDF2A00F70922 /* hfjPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hfjPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB4D5FB1C0FDF2A00F70922 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCB4D5FD1C0FDF2A00F70922 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCB4D5FE1C0FDF2A00F70922 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCB4D6001C0FDF2A00F70922 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCB4D6011C0FDF2A00F70922 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCB4D6041C0FDF2A00F70922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCB4D6061C0FDF2A00F70922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCB4D6091C0FDF2A00F70922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCB4D60B1C0FDF2A00F70922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB4D6101C0FDF2A00F70922 /* hfjPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hfjPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB4D6141C0FDF2A00F70922 /* hfjPayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hfjPayTests.m; sourceTree = "<group>"; };
+		CCB4D6161C0FDF2A00F70922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB4D61B1C0FDF2A00F70922 /* hfjPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hfjPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB4D61F1C0FDF2A00F70922 /* hfjPayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hfjPayUITests.m; sourceTree = "<group>"; };
+		CCB4D6211C0FDF2A00F70922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB4D62E1C0FE02D00F70922 /* libSPaySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSPaySDK.a; sourceTree = "<group>"; };
+		CCB4D62F1C0FE02D00F70922 /* libSPaySdkQuickPay1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSPaySdkQuickPay1.a; sourceTree = "<group>"; };
+		CCB4D6301C0FE02D00F70922 /* SPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPay.h; sourceTree = "<group>"; };
+		CCB4D6311C0FE02D00F70922 /* SPayError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPayError.h; sourceTree = "<group>"; };
+		CCB4D6321C0FE02D00F70922 /* SPayImages.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SPayImages.bundle; sourceTree = "<group>"; };
+		CCB4D6331C0FE02D00F70922 /* SPayUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPayUtility.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB4D5F41C0FDF2A00F70922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB4D6351C0FE02D00F70922 /* libSPaySdkQuickPay1.a in Frameworks */,
+				CCB4D6341C0FE02D00F70922 /* libSPaySDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB4D60D1C0FDF2A00F70922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB4D6181C0FDF2A00F70922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCB4D5EE1C0FDF2A00F70922 = {
+			isa = PBXGroup;
+			children = (
+				CCB4D5F91C0FDF2A00F70922 /* hfjPay */,
+				CCB4D6131C0FDF2A00F70922 /* hfjPayTests */,
+				CCB4D61E1C0FDF2A00F70922 /* hfjPayUITests */,
+				CCB4D5F81C0FDF2A00F70922 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB4D5F81C0FDF2A00F70922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB4D5F71C0FDF2A00F70922 /* hfjPay.app */,
+				CCB4D6101C0FDF2A00F70922 /* hfjPayTests.xctest */,
+				CCB4D61B1C0FDF2A00F70922 /* hfjPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCB4D5F91C0FDF2A00F70922 /* hfjPay */ = {
+			isa = PBXGroup;
+			children = (
+				CCB4D62D1C0FE02D00F70922 /* SPay */,
+				CCB4D5FD1C0FDF2A00F70922 /* AppDelegate.h */,
+				CCB4D5FE1C0FDF2A00F70922 /* AppDelegate.m */,
+				CCB4D6001C0FDF2A00F70922 /* ViewController.h */,
+				CCB4D6011C0FDF2A00F70922 /* ViewController.m */,
+				CCB4D6031C0FDF2A00F70922 /* Main.storyboard */,
+				CCB4D6061C0FDF2A00F70922 /* Assets.xcassets */,
+				CCB4D6081C0FDF2A00F70922 /* LaunchScreen.storyboard */,
+				CCB4D60B1C0FDF2A00F70922 /* Info.plist */,
+				CCB4D5FA1C0FDF2A00F70922 /* Supporting Files */,
+			);
+			path = hfjPay;
+			sourceTree = "<group>";
+		};
+		CCB4D5FA1C0FDF2A00F70922 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCB4D5FB1C0FDF2A00F70922 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCB4D6131C0FDF2A00F70922 /* hfjPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB4D6141C0FDF2A00F70922 /* hfjPayTests.m */,
+				CCB4D6161C0FDF2A00F70922 /* Info.plist */,
+			);
+			path = hfjPayTests;
+			sourceTree = "<group>";
+		};
+		CCB4D61E1C0FDF2A00F70922 /* hfjPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB4D61F1C0FDF2A00F70922 /* hfjPayUITests.m */,
+				CCB4D6211C0FDF2A00F70922 /* Info.plist */,
+			);
+			path = hfjPayUITests;
+			sourceTree = "<group>";
+		};
+		CCB4D62D1C0FE02D00F70922 /* SPay */ = {
+			isa = PBXGroup;
+			children = (
+				CCB4D62E1C0FE02D00F70922 /* libSPaySDK.a */,
+				CCB4D62F1C0FE02D00F70922 /* libSPaySdkQuickPay1.a */,
+				CCB4D6301C0FE02D00F70922 /* SPay.h */,
+				CCB4D6311C0FE02D00F70922 /* SPayError.h */,
+				CCB4D6321C0FE02D00F70922 /* SPayImages.bundle */,
+				CCB4D6331C0FE02D00F70922 /* SPayUtility.h */,
+			);
+			path = SPay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB4D5F61C0FDF2A00F70922 /* hfjPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB4D6241C0FDF2A00F70922 /* Build configuration list for PBXNativeTarget "hfjPay" */;
+			buildPhases = (
+				CCB4D5F31C0FDF2A00F70922 /* Sources */,
+				CCB4D5F41C0FDF2A00F70922 /* Frameworks */,
+				CCB4D5F51C0FDF2A00F70922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hfjPay;
+			productName = hfjPay;
+			productReference = CCB4D5F71C0FDF2A00F70922 /* hfjPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCB4D60F1C0FDF2A00F70922 /* hfjPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB4D6271C0FDF2A00F70922 /* Build configuration list for PBXNativeTarget "hfjPayTests" */;
+			buildPhases = (
+				CCB4D60C1C0FDF2A00F70922 /* Sources */,
+				CCB4D60D1C0FDF2A00F70922 /* Frameworks */,
+				CCB4D60E1C0FDF2A00F70922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB4D6121C0FDF2A00F70922 /* PBXTargetDependency */,
+			);
+			name = hfjPayTests;
+			productName = hfjPayTests;
+			productReference = CCB4D6101C0FDF2A00F70922 /* hfjPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCB4D61A1C0FDF2A00F70922 /* hfjPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB4D62A1C0FDF2A00F70922 /* Build configuration list for PBXNativeTarget "hfjPayUITests" */;
+			buildPhases = (
+				CCB4D6171C0FDF2A00F70922 /* Sources */,
+				CCB4D6181C0FDF2A00F70922 /* Frameworks */,
+				CCB4D6191C0FDF2A00F70922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB4D61D1C0FDF2A00F70922 /* PBXTargetDependency */,
+			);
+			name = hfjPayUITests;
+			productName = hfjPayUITests;
+			productReference = CCB4D61B1C0FDF2A00F70922 /* hfjPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB4D5EF1C0FDF2A00F70922 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "何飞江";
+				TargetAttributes = {
+					CCB4D5F61C0FDF2A00F70922 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					CCB4D60F1C0FDF2A00F70922 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CCB4D5F61C0FDF2A00F70922;
+					};
+					CCB4D61A1C0FDF2A00F70922 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CCB4D5F61C0FDF2A00F70922;
+					};
+				};
+			};
+			buildConfigurationList = CCB4D5F21C0FDF2A00F70922 /* Build configuration list for PBXProject "hfjPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCB4D5EE1C0FDF2A00F70922;
+			productRefGroup = CCB4D5F81C0FDF2A00F70922 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB4D5F61C0FDF2A00F70922 /* hfjPay */,
+				CCB4D60F1C0FDF2A00F70922 /* hfjPayTests */,
+				CCB4D61A1C0FDF2A00F70922 /* hfjPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB4D5F51C0FDF2A00F70922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB4D6361C0FE02D00F70922 /* SPayImages.bundle in Resources */,
+				CCB4D60A1C0FDF2A00F70922 /* LaunchScreen.storyboard in Resources */,
+				CCB4D6071C0FDF2A00F70922 /* Assets.xcassets in Resources */,
+				CCB4D6051C0FDF2A00F70922 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB4D60E1C0FDF2A00F70922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB4D6191C0FDF2A00F70922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB4D5F31C0FDF2A00F70922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB4D6021C0FDF2A00F70922 /* ViewController.m in Sources */,
+				CCB4D5FF1C0FDF2A00F70922 /* AppDelegate.m in Sources */,
+				CCB4D5FC1C0FDF2A00F70922 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB4D60C1C0FDF2A00F70922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB4D6151C0FDF2A00F70922 /* hfjPayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB4D6171C0FDF2A00F70922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB4D6201C0FDF2A00F70922 /* hfjPayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCB4D6121C0FDF2A00F70922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB4D5F61C0FDF2A00F70922 /* hfjPay */;
+			targetProxy = CCB4D6111C0FDF2A00F70922 /* PBXContainerItemProxy */;
+		};
+		CCB4D61D1C0FDF2A00F70922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB4D5F61C0FDF2A00F70922 /* hfjPay */;
+			targetProxy = CCB4D61C1C0FDF2A00F70922 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCB4D6031C0FDF2A00F70922 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB4D6041C0FDF2A00F70922 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCB4D6081C0FDF2A00F70922 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB4D6091C0FDF2A00F70922 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCB4D6221C0FDF2A00F70922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCB4D6231C0FDF2A00F70922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB4D6251C0FDF2A00F70922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hfjPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/hfjPay/SPay",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinwang.hfjPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCB4D6261C0FDF2A00F70922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hfjPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/hfjPay/SPay",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinwang.hfjPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCB4D6281C0FDF2A00F70922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hfjPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinwang.hfjPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hfjPay.app/hfjPay";
+			};
+			name = Debug;
+		};
+		CCB4D6291C0FDF2A00F70922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hfjPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinwang.hfjPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hfjPay.app/hfjPay";
+			};
+			name = Release;
+		};
+		CCB4D62B1C0FDF2A00F70922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hfjPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinwang.hfjPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hfjPay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CCB4D62C1C0FDF2A00F70922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hfjPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinwang.hfjPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hfjPay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB4D5F21C0FDF2A00F70922 /* Build configuration list for PBXProject "hfjPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB4D6221C0FDF2A00F70922 /* Debug */,
+				CCB4D6231C0FDF2A00F70922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB4D6241C0FDF2A00F70922 /* Build configuration list for PBXNativeTarget "hfjPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB4D6251C0FDF2A00F70922 /* Debug */,
+				CCB4D6261C0FDF2A00F70922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCB4D6271C0FDF2A00F70922 /* Build configuration list for PBXNativeTarget "hfjPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB4D6281C0FDF2A00F70922 /* Debug */,
+				CCB4D6291C0FDF2A00F70922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCB4D62A1C0FDF2A00F70922 /* Build configuration list for PBXNativeTarget "hfjPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB4D62B1C0FDF2A00F70922 /* Debug */,
+				CCB4D62C1C0FDF2A00F70922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCB4D5EF1C0FDF2A00F70922 /* Project object */;
+}
